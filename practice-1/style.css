@@ -1,0 +1,87 @@
+* {
+	box-sizing: border-box;
+	font-family: "Verdana", sans-serif;
+}
+
+html, body {
+	margin: 0px;	
+}
+
+.background-image {
+	background-image: url("background-image2.png");
+	height: 100vh;
+	width: 100vw;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login {
+	background-color: hsla(105, 6%, 77%, 0.25);
+	padding: 40px 30px;
+	min-width: 400px;
+	width: 50%;
+	max-width: 600px;
+
+}
+.welcome {
+	color: white;
+	text-align: center;
+	font-size: 2.5em;
+	margin: 0px;
+	margin-bottom: 30px;
+	font-weight: normal;
+}
+
+.input-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+}
+
+.input-group label {
+	color: white;
+	font-weight: lighter;
+	font-size: 1.2em;
+	margin-bottom: 7px;
+}
+
+.input-group input {
+	font-size: 1.5em;
+	padding: .1em .25em;
+	border: 2px solid grey;
+	background-color: hsla(105, 6%, 77%, 0.65) ;
+	outline: none;
+	color: white;
+	border-radius: 5px;
+	font-weight: lighter;
+}
+
+.input-group input:focus {
+	border: 2px solid white;
+}
+
+.login-button {
+	margin-top: 15px;
+	padding: 15px 30px;
+	width: 100%;
+	background-color: hsla(105, 6%, 77%, 0.35);
+	border: 3px solid white
+	outline: none;
+	color: white;
+	font-size: 26px;
+	font-weight: lighter;
+	border-radius: 8px;
+	border-color: 1px solid hsla(105, 6%, 77%, 0.65);
+	cursor: pointer;
+}
+
+.login-button:hover {
+	background-color: hsla(105, 6%, 77%, 0.45)
+}
+
+.login-button:focus {
+	background-color: hsla(105, 6%, 77%, 0.55)
+}
